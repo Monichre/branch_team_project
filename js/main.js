@@ -12,3 +12,30 @@ Dog.adopted = true;
 
 
 // UI LOGIC ******************************************************
+$(document).ready(function(){
+
+	$('form').submit(function(e){
+		e.preventDefault();
+
+		var dogName = $("#nameSubmit").val();
+		var dogBreed = $("#breedSubmit").val();
+		var dogAge = $("#ageSubmit").val();
+		var dogColors = $("#colorationSubmit").val();
+		var dogGender = $("#genderSubmit").val();
+		var dogTemperment = $("#tempermentSubmit").val();
+
+
+
+		var newDog = new Dog(dogName, dogBreed, dogAge, dogColors, dogGender, dogTemperment);
+
+		console.log(dogName);
+		console.log(dogBreed);
+		console.log(dogAge);
+		console.log(dogColors);
+		console.log(dogGender);
+		console.log(dogTemperment);
+		console.log(newDog);
+
+	});
+
+});
