@@ -1,0 +1,40 @@
+.pizzaButton{
+  background-color: #fdcd91;
+  height: 50px;
+  width: 200px;
+  border-style: inset;
+  border-width: 3px;
+  border-color: #fdcd91;
+  background-color: #;
+  margin: auto;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+.row{
+  margin: auto;
+  width: 71%;
+
+}
+.decideTime{
+  background-color: #;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+.jumbotron{
+  background-color: #fff2ca;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+.selected{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 10 10px 17px rgba(0, 0, 0, .125);
+          box-shadow: inset 10 10px 17px rgba(0, 0, 0, .125);
+  background-image: url(../img/checkbox.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #009999;
+}
