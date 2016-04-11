@@ -1,53 +1,89 @@
 @font-face {
   font-family: "DYLANDOG";
-  src: "fonts/DYLANDOG.otf";
+  src: "../fonts/DYLANDOG.otf";
 }
 
 @font-face {
-  font-family: "GOODDC_.TTF";
-  src: "fonts/GOODDC_.TTF";
+  font-family: "GOODDC";
+  src: "../fonts/GOODDC_.TTF";
 }
 
 body {
-
-}
-
-.container {
-
+  margin: auto;
+  display: block;
 }
 
 header {
-
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  padding: 15px;
 }
 
+
 h1 {
-  font-family: "DYLANDOG";
+  font-family: "DYLANDOG"!important;
   font-size: 50px;
   margin: auto;
   letter-spacing: 1px;
 }
 
-nav {
-  width: 300px;
-  margin: auto;
-}
-
-nav ul {
+h2 {
   text-align: center;
 }
 
-nav ul li {
-  margin: 15px;
-}
-
-.content {
-  width: 900px;
-  margin: auto;
-  display: inline-grid;
-}
-
-img a {
+.showCaseAnimal {
   border: 1px solid #999;
   border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block!important;
+}
+
+.showCaseAnimal h2 {
   margin: auto;
+}
+
+form {
+  width: 1000px!important;
+  margin: auto!important;
+  text-align: center;
+}
+
+label {
+  display: inline-block!important;
+  font-family: 'helvetica neue';
+  font-weight: 100;
+  font-size: 175%;
+}
+
+input {
+  display: block!important;
+  width: 300px;
+  text-align: center!important;
+  margin: auto;
+}
+
+.showCaseAnimal {
+  display: inline-block!important;
+  width: 230px;
+  margin: auto!important;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+img {
+  height: 200px!important;
+}
+
+button {
+  margin: 20px;
+}
+
+.gallery {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
 }
