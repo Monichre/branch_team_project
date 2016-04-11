@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "DYLANDOG";
+  src: "fonts/DYLANDOG.otf";
+}
+
+@font-face {
+  font-family: "GOODDC_.TTF";
+  src: "fonts/GOODDC_.TTF";
+}
+
+body {
+
+}
+
+.container {
+
+}
+
+header {
+
+}
+
+h1 {
+  font-family: "DYLANDOG";
+  font-size: 50px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+nav {
+  width: 300px;
+  margin: auto;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  margin: 15px;
+}
+
+.content {
+  width: 900px;
+  margin: auto;
+  display: inline-grid;
+}
+
+img a {
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: auto;
+}
